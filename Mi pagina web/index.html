@@ -51,5 +51,37 @@
             </tr>
         </thead>
     </table>
+
+    <br>
+        <h1>Formulario</h1>
+    <form action="" method="post">
+
+        <!-- Datos personales -->
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" required><br>
+            
+            <label for="ape">Apellido</label><br>
+            <input type="text" name="ape" id="ape" required><br>
+            
+        </fieldset>
+
+        <!-- Información adicional -->
+        <fieldset>
+            <legend>Información personal adicional</legend>
+            
+            <label for="phone">Teléfono</label><br>
+            <input type="tel" name="phone" id="phone" required><br>
+          
+            <label for="correo">Correo</label><br>
+            <input type="email" name="correo" id="correo" required><br>
+          
+            <label for="direccion">Dirección</label><br>
+            <input type="text" name="direccion" id="direccion" required><br>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>

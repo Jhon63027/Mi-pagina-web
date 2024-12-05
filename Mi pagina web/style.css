@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+h2{
+    color: blue;
+    margin-top: 50px;
+}
+img{
+   display: block;
+   width: 450px;
+   margin: auto;
+
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 15px;
+}
+table{
+margin-left: 30px;
+}
+table, tr,td{
+ border: 1px solid black;
+}
+form{
+    width: max-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
