@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mi sitio web</h1>
+    <h2>Quien soy</h2>
+    <p>Mi nombrees Jhon Escorcia vivo en Riohacha tengo 21 años me gusta el futbol y la tecnologia entre otras cosas.</p>
+     <p>
+        <img src="imagen.avif" alt="">
+     </p>
+           <!-- lista desordenada -->
+      <ul>
+        <li>Jugar futbol</li>
+        <li>Videojuegos</li>
+        <li>Cocinar</li>
+       
+      </ul>
+         <!-- lista ordenada -->
+      <ol>
+        <li>Lavar</li>
+        <li>Tareas</li>
+        <li>Aseo</li>
+       
+      </ol>
+       <!-- tabla bien estructurada -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lavar</td>
+                    <td>Aseo</td>
+                    <td>Salir</td>
+                    <td>Jugar futbol</td>
+                    <td>Lavar</td>
+                    <td>Cine</td>
+                </tr>
+                <tr>
+                    <td>Tareas</td>
+                    <td>Videojuegos</td>
+                    <td>Visita</td>
+                    <td>Mas tareas</td>
+                </tr>
+            </tbody>
+        </table>
+          
+        <!-- Formulario de contacto -->
+         <h4>Formulario de contacto
+            <form id="ContacForm">
+                <label for="Nombre"></label> <br>
+                <input type="text"id="Nombre" name="Nombre" placeholder="Escriba el nombre" required>
+                   
+                <label for="reason"></label><br><br>
+                <textarea name="reason" id="reason" rows="4" placeholder="Escriba su  Motivo" required></textarea><br><br>
+                 
+                <label for="email"></label>
+                <input type="email" id="email"name="email" placeholder="Escriba su correo" required><br><br>
+               
+                <button type="submit">Enviar</button>
+            </form>
+         </h4>
+         <script src="script.js"></script>
+</body>
+</html>
